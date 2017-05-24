@@ -1,52 +1,21 @@
 class PagesController < ApplicationController
 
 	def index
-    # @projects = Page.all
-  end
+  	end
 
- #  def show
- #    find_project
- #  end
+  	def about
+  	end
 
-  # def new
-  #   @project = Page.new 
-  # end
+  	def connect
+  	end
 
-  # def edit
-  #   find_project
-    
-  # end
+ 	def post
+ 	end
 
-  # def create
-  #   @project = Page.new(project_params)
-  #   if @project.save
-  #     redirect_to page_path(@project)
-  #   else 
-  #     render 'new'
-  #   end
-  # end
+ 	def music
+ 	end 
 
-  # def update
-  #   find_project
-  #   if @project.save
-  #     redirect_to page_path(@project)
-  #   else
-  #     render 'edit'
-  #   end
-  # end
-
-  # def destroy
-  #   find_project
-  #   @project.destroy
-  # end 
-
-  # private
-  #   def find_project
-  #     @project = Page.find(params[:id])
-  #   end
-
-  #   def project_params
-  #     params.require(:location).permit(:name)
-  #   end
+ 	def resume
+ 	end
 
 end
