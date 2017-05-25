@@ -10,32 +10,126 @@ a:hover {
 	color: red;
 }
 
+iframe {
+	height: 25rem;
+	width: 80%;
+	text-align: center;
+}
+
+
+
 .titleBanner {
 	text-align: center;
 	margin-bottom: 4%;
 }
 
-		.titleBanner .titleName {
-			font-size: 3rem;
-		}
+	.titleBanner .titleName {
+		font-size: 3rem;
+	}
+	.titleBanner .titleDescription {
+		font-size: 1.2rem;
+	}
 
-		.titleBanner .titleDescription {
-			font-size: 1.2rem;
-		}
+
 
 .nav {
 	float: left;
+	position: fixed;
 	width: 10%;
-	margin-right: 8%;
+	margin: 4%;
+	top: 20vh;
 }
 
-		.nav p {
-			font-size: 1.1rem;
-			
-		}
+	.nav p {
+		font-size: 1.1rem;
+	}
+
+
 
 .pageDiv {
 	float: right;
 	width: 80%;
 	padding-top: 2%;
+	margin-right: 4%;
+}
+
+
+
+
+
+
+.project {
+	width: 45%;
+	height: 100%;
+	margin: .1%;
+	margin-bottom: .3%;
+	display: inline-block;
+	background-color: black;
+	border: 3px white solid;
+}
+
+.postProject {
+	position: relative;
+	margin-top: 20%;
+	font-size: 2.5vw;
+	color: white;
+}
+
+.postProject a, .postProject .projBtn{
+	color: white;
+	text-decoration: none;
+}
+
+.postProject a:hover, .postProject .projBtn:hover {
+	color: black;
+  cursor: pointer;
+}
+
+// modals
+.projModal {
+    display: none;
+    position: fixed; 
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%; 
+    overflow: auto;
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.6); /* Black w/ opacity */
+    color: black;
+    text-align: center;
+}
+.projModalContent {
+    background-color: #f9dbe0;
+    margin: 15% auto; 
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+.projClose {
+    color: #aaa;
+    float: right;
+    font-size: 25px;
+    font-weight: bold;
+}
+.projClose:hover,
+.projClose:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+// individual project pages
+.projectShow {
+	width: 100%;
 }

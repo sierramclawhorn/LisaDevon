@@ -1,3 +1,58 @@
 <div class='pageDiv'>
 
+<!-- visible project blocks -->
+	<div id='portfolio'> 
+		<div class='project'>
+			<div class='postProject'>
+				<span data-modal='proj1Modal' class='projBtn'>proj 1</span>
+			</div>
+		</div>
+		<div class='project'>
+			<div class='postProject'>
+				<span data-modal='proj2Modal' class='projBtn'>proj 2</span>
+			</div>		
+		</div>
+		<div class='project'>
+			<div class='postProject'>
+				<span data-modal='proj3Modal' class='projBtn'>proj 3</span>
+			</div>
+		</div>
+		<div class='project'>
+			<div class='postProject'>
+				<span data-modal='proj4Modal' class='projBtn'>proj 4</span>
+			</div>
+		</div>
+	</div>	
+
+
+<!-- project modals -->
+	<div id='proj1Modal' class='projModal'>
+	 	<div class='projModalContent'>
+	 		<span class='projClose'>&times;</span>
+	    	<%= render partial: 'proj1', layout: false %>
+	  	</div>
+	</div>
+	
+	<div id='proj2Modal' class='projModal'>
+	 	<div class='projModalContent'>
+	 		<span class='projClose'>&times;</span>
+	    	<%= render partial: 'proj2', layout: false %>
+	  	</div>
+	</div>
+	
+	<div id='proj3Modal' class='projModal'>
+	 	<div class='projModalContent'>
+	 		<span class='projClose'>&times;</span>
+	    	<%= render partial: 'proj3', layout: false %>
+	  	</div>
+	</div>
+	
+	<div id='proj4Modal' class='projModal'>
+	 	<div class='projModalContent'>
+	 		<span class='projClose'>&times;</span>
+	    	<%= render partial: 'proj4', layout: false %>
+	  	</div>
+	</div>
+
+
 </div>
