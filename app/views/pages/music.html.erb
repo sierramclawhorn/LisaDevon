@@ -1,3 +1,57 @@
 <div class='pageDiv'>
 
+	<!-- visible project blocks -->
+		<div id='portfolio'> 
+			<div class='project'>
+				<div class='musicProject'>
+					<span data-modal='music1Modal' class='projBtn'>music 1</span>
+				</div>
+			</div>
+			<div class='project'>
+				<div class='musicProject'>
+					<span data-modal='music2Modal' class='projBtn'>music 2</span>
+				</div>		
+			</div>
+			<div class='project'>
+				<div class='musicProject'>
+					<span data-modal='music3Modal' class='projBtn'>music 3</span>
+				</div>
+			</div>
+			<div class='project'>
+				<div class='musicProject'>
+					<span data-modal='music4Modal' class='projBtn'>music 4</span>
+				</div>
+			</div>
+		</div>	
+	
+	
+	<!-- project modals -->
+		<div id='music1Modal' class='projModal'>
+		 	<div class='projModalContent'>
+		 		<span class='projClose'>&times;</span>
+		    	<%= render partial: 'music1', layout: false %>
+		  	</div>
+		</div>
+		
+		<div id='music2Modal' class='projModal'>
+		 	<div class='projModalContent'>
+		 		<span class='projClose'>&times;</span>
+		    	<%= render partial: 'music2', layout: false %>
+		  	</div>
+		</div>
+		
+		<div id='music3Modal' class='projModal'>
+		 	<div class='projModalContent'>
+		 		<span class='projClose'>&times;</span>
+		    	<%= render partial: 'music3', layout: false %>
+		  	</div>
+		</div>
+		
+		<div id='music4Modal' class='projModal'>
+		 	<div class='projModalContent'>
+		 		<span class='projClose'>&times;</span>
+		    	<%= render partial: 'music4', layout: false %>
+		  	</div>
+		</div>
+
 </div>
