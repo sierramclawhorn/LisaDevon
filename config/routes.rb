@@ -8,6 +8,9 @@ Rails.application.routes.draw do
   		get '/resume' => 'pages#resume'
   		get 'pages/download_pdf'
 
+  	# resources :contact, only: [:new, :create]
+  	# 	get '/connect' => 'contacts#new'
+
 
 	root 'pages#index'
 
