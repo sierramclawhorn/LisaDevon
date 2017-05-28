@@ -312,7 +312,7 @@ iframe {
 			font-size: 250%;
 		}
 
-		.connect {
+		.connect, .about {
 			text-align: center;
 		}
 }
@@ -351,5 +351,10 @@ iframe {
 
 		.connect {
 			text-align: center;
+		}
+
+		.about {
+			margin-top: 6%;
+			text-align: left;
 		}
 }
