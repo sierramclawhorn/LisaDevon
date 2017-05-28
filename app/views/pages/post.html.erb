@@ -2,55 +2,43 @@
 
 <!-- visible project blocks -->
 	<div id='portfolio'> 
-		<div class='project'>
+		<div class='project postVero'>
 			<div class='postProject'>
-				<span data-modal='proj1Modal' class='projBtn'>proj 1</span>
+				<span data-modal='post1Modal' class='projBtn'>vero_xsm</span>
 			</div>
 		</div>
-		<div class='project'>
+		<div class='project postCisco'>
 			<div class='postProject'>
-				<span data-modal='proj2Modal' class='projBtn'>proj 2</span>
+				<span data-modal='post2Modal' class='projBtn'>cisco</span>
 			</div>		
 		</div>
-		<div class='project'>
+		<div class='project postQueensway'>
 			<div class='postProject'>
-				<span data-modal='proj3Modal' class='projBtn'>proj 3</span>
-			</div>
-		</div>
-		<div class='project'>
-			<div class='postProject'>
-				<span data-modal='proj4Modal' class='projBtn'>proj 4</span>
+				<span data-modal='post3Modal' class='projBtn'>the queensway</span>
 			</div>
 		</div>
 	</div>	
 
 
 <!-- project modals -->
-	<div id='proj1Modal' class='projModal'>
+	<div id='post1Modal' class='projModal'>
 	 	<div class='projModalContent'>
 	 		<span class='projClose'>&times;</span>
-	    	<%= render partial: 'proj1', layout: false %>
+	    	<%= render partial: 'post_vero', layout: false %>
 	  	</div>
 	</div>
 	
-	<div id='proj2Modal' class='projModal'>
+	<div id='post2Modal' class='projModal'>
 	 	<div class='projModalContent'>
 	 		<span class='projClose'>&times;</span>
-	    	<%= render partial: 'proj2', layout: false %>
+	    	<%= render partial: 'post_cisco', layout: false %>
 	  	</div>
 	</div>
 	
-	<div id='proj3Modal' class='projModal'>
+	<div id='post3Modal' class='projModal'>
 	 	<div class='projModalContent'>
 	 		<span class='projClose'>&times;</span>
-	    	<%= render partial: 'proj3', layout: false %>
-	  	</div>
-	</div>
-	
-	<div id='proj4Modal' class='projModal'>
-	 	<div class='projModalContent'>
-	 		<span class='projClose'>&times;</span>
-	    	<%= render partial: 'proj4', layout: false %>
+	    	<%= render partial: 'post_queensway', layout: false %>
 	  	</div>
 	</div>
 

@@ -150,7 +150,7 @@ iframe {
 		
 		// modals
 		.projModal {
-		    display: none;
+		    visibility: hidden;
 		    position: fixed; 
 		    z-index: 1;
 		    left: 0;

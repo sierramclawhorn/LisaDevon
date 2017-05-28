@@ -5,7 +5,7 @@ $(document).on('turbolinks:load', function(){
     modalBtns.forEach(function(btn){
       btn.onclick = function() {
         var projModal = btn.getAttribute('data-modal');
-        document.getElementById(projModal).style.display =  "block";
+        document.getElementById(projModal).style.visibility =  "visible";
       }
     });
     
