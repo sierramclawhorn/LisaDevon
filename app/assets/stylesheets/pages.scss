@@ -160,6 +160,10 @@ iframe {
 			border: 3px white solid;
 		}
 
+		.project:hover {
+			opacity: 100;
+		}
+
 		.postProject, .musicProject, .filmProject {
 			position: relative;
 			margin-top: 20%;
