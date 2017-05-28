@@ -67,56 +67,56 @@ iframe {
 
 		.filmAmericanParadise {
 			background-image: url('/projectImgs/americanparadise.jpg');
-			background-size: cover;
-    		background-repeat:   no-repeat;
-    		background-position: center center;
 		}
 
 		.filmSeaGypsies {
 			background-image: url('/projectImgs/seagypsies.jpg');
-			background-size: cover;
-    		background-repeat:   no-repeat;
-    		background-position: center center;
 		}
 
 		.filmFindingKukan {
-			background-image: url('/projectImgs/findingkukan.jpg');
-			background-size: cover;
-    		background-repeat:   no-repeat;
-    		background-position: center center;			
+			background-image: url('/projectImgs/findingkukan.jpg');		
 		}
 
 		.filmVoicesBeyondTheWall {
 			background-image: url('/projectImgs/voicesbeyondthewalls.jpg');
-			background-size: cover;
-    		background-repeat:   no-repeat;
-    		background-position: center center;
 		}
 
 		.filmWinningGirl {
-			background-image: url('/projectImgs/winninggirl.jpg');
-			background-size: cover;
-    		background-repeat:   no-repeat;
-    		background-position: center center;			
+			background-image: url('/projectImgs/winninggirl.jpg');			
 		}
 
 		.filmGutHack {
 			background-image: url('/projectImgs/guthack.jpg');
-			background-size: cover;
-    		background-repeat:   no-repeat;
-    		background-position: center center;
+		}
+
+//music projects
+
+		.musicMagicianBag {
+			background-image: url('/projectImgs/magicianbag.jpg')
+		}
+
+		.musicSelidim {
+			background-image: url('/projectImgs/selidim.jpg')
+		}
+
+		.musicAllegretto {
+			background-image: url('/projectImgs/allegretto.jpg')
 		}
 
 
 
 //post, film, music 
 		.project {
+			background-size: cover;
+    		background-repeat:   no-repeat;
+    		background-position: center center;
 			width: 45%;
 			height: 100%;
 			margin: .1%;
 			margin-bottom: .3%;
 			display: inline-block;
 			opacity: 0.65;
+			background-color: black;
 			border: 3px white solid;
 		}
 
@@ -185,20 +185,18 @@ iframe {
 
 
 
-
-
-
 // individual project pages
 .projectShow {
 	width: 100%;
 }
 
 
+//resume
+.resumeImg {
+	width: 90%;
+	text-align: center;
 
-
-
-
-
+}
 
 
 
