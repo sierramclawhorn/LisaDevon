@@ -291,6 +291,7 @@ iframe {
 
 		.nav p {
 			display: inline;
+			font-size: 1.2rem;
 			word-spacing: 2rem;
 		}
 		
@@ -309,6 +310,35 @@ iframe {
 
 		.postProject, .musicProject, .filmProject {
 			font-size: 150%;
+		}
+
+		.connect {
+			text-align: center;
+		}
+}
+
+//mobile 
+@media only screen and (max-width: 620px) and (min-width: 551px) {
+		.nav p {
+			font-size: 200%;
+		}
+
+		.pageDiv {
+			float: none;
+			width: 70%;
+			margin: auto;
+			margin-right: 4%;
+		}
+
+		.project {
+			display: block;
+			margin: auto;
+			width: 100%;
+			height: 100%;
+		}
+
+		.postProject, .musicProject, .filmProject {
+			font-size: 250%;
 		}
 
 		.connect {
