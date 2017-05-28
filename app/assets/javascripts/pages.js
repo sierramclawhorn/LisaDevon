@@ -14,15 +14,17 @@ $(document).on('turbolinks:load', function(){
       btn.onclick = function() {
         var projModal = btn.closest('.projModal');
         projModal.style.display = "none";
-        $('iframe').attr('src', $('iframe').attr('src'));
-      }
+        // $('iframe').attr('src', $('iframe').attr('src'));
+      };
     });
     
     window.onclick = function(event) {
       if (event.target.className === 'projModal') {
         event.target.style.display = "none";
-        $('iframe').attr('src', $('iframe').attr('src'));
-      }
+
+      };
     };
+
+
 
 });
