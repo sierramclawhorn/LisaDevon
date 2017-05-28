@@ -1,3 +1,15 @@
 Rails.application.routes.draw do
-  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
+
+	resources :pages
+  		get '/about' => 'pages#about'
+  		get '/connect' => 'pages#connect'
+  		get '/post' => 'pages#post'	
+  		get '/film' => 'pages#film'
+  		get '/music' => 'pages#music'
+  		get '/resume' => 'pages#resume'
+  		get 'pages/download_pdf'
+
+
+	root 'pages#index'
+
 end

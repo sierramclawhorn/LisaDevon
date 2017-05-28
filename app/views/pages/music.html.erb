@@ -1,0 +1,45 @@
+<div class='pageDiv'>
+
+	<!-- visible project blocks -->
+		<div id='portfolio'> 
+			<div class='project musicMagicianBag'>
+				<div class='musicProject'>
+					<span data-modal='music1Modal' class='projBtn'>magician bag</span>
+				</div>
+			</div>
+			<div class='project musicSelidim'>
+				<div class='musicProject'>
+					<span data-modal='music2Modal' class='projBtn'>selidim</span>
+				</div>		
+			</div>
+			<div class='project musicAllegretto'>
+				<div class='musicProject'>
+					<span data-modal='music3Modal' class='projBtn'>allegretto</span>
+				</div>
+			</div>
+		</div>	
+	
+	
+	<!-- project modals -->
+		<div id='music1Modal' class='projModal'>
+		 	<div class='projModalContent'>
+		 		<span class='projClose'>&times;</span>
+		    	<%= render partial: 'music1', layout: false %>
+		  	</div>
+		</div>
+		
+		<div id='music2Modal' class='projModal'>
+		 	<div class='projModalContent'>
+		 		<span class='projClose'>&times;</span>
+		    	<%= render partial: 'music2', layout: false %>
+		  	</div>
+		</div>
+		
+		<div id='music3Modal' class='projModal'>
+		 	<div class='projModalContent'>
+		 		<span class='projClose'>&times;</span>
+		    	<%= render partial: 'music3', layout: false %>
+		  	</div>
+		</div>
+
+</div>
