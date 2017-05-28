@@ -10,6 +10,6 @@ Rails.application.routes.draw do
   		get 'pages/download_pdf'
 
 
-	root 'pages#index'
+	root 'pages#about'
 
 end
