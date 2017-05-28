@@ -1,15 +1,15 @@
-<div class='pageDiv'>
+<div class='pageDiv connect'>
 
 	<p>e-mail me:
-	<%= mail_to "lisa.anna.devon@gmail.com" do %>
-  		lisa.anna.devon@gmail.com
+	<%= mail_to "lisa@lisasound.com" do %>
+  		lisa@lisasound.com
 	<% end %></p>
 
 
-	<p><%= link_to 'IMDB', "https://www.imdb.com/name/nm5559080/?ref_=nv_sr_1", :target => "_blank" %></p>
-
-	<p><%= link_to 'linkedin', "https://www.linkedin.com/in/lisa-devon-175b6676/", :target => "_blank" %></p>
-
-	<p><%= link_to 'facebook', "https://www.facebook.com/lisa.devon.7", :target => "_blank" %></p>
+	<div class='socialMedia'>
+		<a href="https://www.imdb.com/name/nm5559080/?ref_=nv_sr_1"><%= image_tag '/images/imdb.png', class: 'icon' %></a>
+		<a href="https://www.linkedin.com/in/lisa-devon-175b6676/"><%= image_tag 'linkedin.png', class: 'icon' %></a>
+		<a href="https://www.facebook.com/lisa.devon.7"><%= image_tag 'facebook.png', class: 'icon' %></a>
+	</div>
 
 </div>
