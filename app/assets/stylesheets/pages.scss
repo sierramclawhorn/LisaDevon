@@ -280,7 +280,7 @@ iframe {
 
 
 //browser size media queries
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 700px) {
 		.nav {
 			float: none;
 			width: 100%;
@@ -297,7 +297,7 @@ iframe {
 		
 		.pageDiv {
 			float: none;
-			width: 70%;
+			width: 100%;
 			margin: auto;
 		}
 
@@ -309,7 +309,7 @@ iframe {
 		}
 
 		.postProject, .musicProject, .filmProject {
-			font-size: 150%;
+			font-size: 250%;
 		}
 
 		.connect {
@@ -319,13 +319,21 @@ iframe {
 
 //mobile 
 @media handheld, screen and (max-width: 500px) {
+		.nav {
+			float: left;
+			width: 15%;
+			text-align: left;
+			position: fixed;;
+			top: 25vh;
+		}
+
 		.nav p {
 			font-size: 150%;
 		}
 
 		.pageDiv {
-			float: none;
-			width: 70%;
+			float: right;
+			width: 75%;
 			margin: auto;
 			margin-right: 4%;
 		}
