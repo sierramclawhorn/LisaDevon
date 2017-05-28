@@ -6,6 +6,7 @@ Rails.application.routes.draw do
   		get '/post' => 'pages#post'	
   		get '/music' => 'pages#music'
   		get '/resume' => 'pages#resume'
+  		get 'pages/download_pdf'
 
 
 	root 'pages#index'

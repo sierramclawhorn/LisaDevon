@@ -1,13 +1,13 @@
 class PagesController < ApplicationController
 
 	def index
-  	end
+  end
 
-  	def about
-  	end
+  def about
+  end
 
-  	def connect
-  	end
+  def connect
+  end
 
  	def post
  	end
