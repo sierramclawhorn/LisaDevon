@@ -23,6 +23,6 @@ $(document).on('turbolinks:load', function(){
         event.target.style.display = "none";
         $('iframe').attr('src', $('iframe').attr('src'));
       }
-    }
+    };
 
 });

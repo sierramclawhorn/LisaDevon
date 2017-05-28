@@ -1,0 +1,81 @@
+<div class='pageDiv'>
+
+<!-- visible project blocks -->
+	<div id='portfolio'> 
+		<div class='project filmAmericanParadise'>
+			<div class='filmProject'>
+				<span data-modal='film1Modal' class='projBtn'>American Paradise</span>
+			</div>
+		</div>
+		<div class='project filmSeaGypsies'>
+			<div class='filmProject'>
+				<span data-modal='film2Modal' class='projBtn'>Sea Gypsies</span>
+			</div>		
+		</div>
+		<div class='project filmFindingKukan'>
+			<div class='filmProject'>
+				<span data-modal='film3Modal' class='projBtn'>Finding Kukan</span>
+			</div>
+		</div>
+		<div class='project filmVoicesBeyondTheWall'>
+			<div class='filmProject'>
+				<span data-modal='film4Modal' class='projBtn'>Voices Beyond the Wall</span>
+			</div>
+		</div>
+		<div class='project filmWinningGirl'>
+			<div class='filmProject'>
+				<span data-modal='film5Modal' class='projBtn'>Winning Girl</span>
+			</div>
+		</div>
+		<div class='project filmGutHack'>
+			<div class='filmProject'>
+				<span data-modal='film6Modal' class='projBtn'>Gut Hack</span>
+			</div>
+		</div>
+	</div>	
+
+
+<!-- project modals -->
+	<div id='film1Modal' class='projModal'>
+	 	<div class='projModalContent'>
+	 		<span class='projClose'>&times;</span>
+	    	<%= render partial: 'film_AmericanParadise', layout: false %>
+	  	</div>
+	</div>
+	
+	<div id='film2Modal' class='projModal'>
+	 	<div class='projModalContent'>
+	 		<span class='projClose'>&times;</span>
+	    	<%= render partial: 'film_SeaGypsies', layout: false %>
+	  	</div>
+	</div>
+	
+	<div id='film3Modal' class='projModal'>
+	 	<div class='projModalContent'>
+	 		<span class='projClose'>&times;</span>
+	    	<%= render partial: 'film_FindingKukan', layout: false %>
+	  	</div>
+	</div>
+	
+	<div id='film4Modal' class='projModal'>
+	 	<div class='projModalContent'>
+	 		<span class='projClose'>&times;</span>
+	    	<%= render partial: 'film_VoicesBeyondTheWall', layout: false %>
+	  	</div>
+	</div>
+
+	<div id='film5Modal' class='projModal'>
+	 	<div class='projModalContent'>
+	 		<span class='projClose'>&times;</span>
+	    	<%= render partial: 'film_WinningGirl', layout: false %>
+	  	</div>
+	</div>
+
+	<div id='film6Modal' class='projModal'>
+	 	<div class='projModalContent'>
+	 		<span class='projClose'>&times;</span>
+	    	<%= render partial: 'film_GutHack', layout: false %>
+	  	</div>
+	</div>
+
+</div>
