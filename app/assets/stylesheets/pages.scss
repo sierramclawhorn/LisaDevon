@@ -1,4 +1,14 @@
+$font-stack1:'Avenir', sans-serif;
+$font-stack2:'Raleway', sans-serif;
+$font-stack3:'lato', sans-serif;
+$font-stack4: 'Dorsa', sans-serif;
+$font-stack5: 'Open Sans', serif;
+$font-stack6: 'Josefin Sans', sans-serif;
+
+
 .construction {
+	font-family: $font-stack4;
+	letter-spacing: 1.40rem;
 	text-align: center;
 	font-size: 3em;
 	color: red;
@@ -6,11 +16,7 @@
 
 
 
-
-
-
-
-
+//pages
 body {
 	margin: 2%;
 }
