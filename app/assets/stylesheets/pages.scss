@@ -1,17 +1,20 @@
-$font-stack1:'Avenir', sans-serif;
-$font-stack2:'Raleway', sans-serif;
-$font-stack3:'lato', sans-serif;
+$font-stack1: 'Avenir', sans-serif;
+$font-stack2: 'Raleway', sans-serif;
+$font-stack3: 'lato', sans-serif;
 $font-stack4: 'Dorsa', sans-serif;
 $font-stack5: 'Open Sans', serif;
 $font-stack6: 'Josefin Sans', sans-serif;
 
+$color-blue: #093aa3;
+$color-charcol: #191919;
+
 
 .construction {
 	font-family: $font-stack4;
-	letter-spacing: 1.40rem;
+	letter-spacing: 1.3rem;
 	text-align: center;
-	font-size: 3em;
-	color: red;
+	font-size: 5vw;
+	color: #396cd3;
 }
 
 
@@ -24,14 +27,14 @@ body {
 a {
 	text-decoration: none;
 }
+	a:visited {
+		text-decoration: none;
+		color: $color-charcol;
+	}
+	a:hover {
+		color: $color-blue;
+	}
 
-a:visited {
-	text-decoration: none;
-}
-
-a:hover {
-	color: red;
-}
 
 iframe {
 	height: 25rem;
@@ -40,19 +43,22 @@ iframe {
 }
 
 
-
 .titleBanner {
 	text-align: center;
 	margin-bottom: 4%;
 }
-
 	.titleBanner .titleName {
-		font-size: 3rem;
+		font-size: 3.5rem;
+		font-family: $font-stack2;
+		font-weight: 400;
 	}
 	.titleBanner .titleDescription {
 		font-size: 1.2rem;
+		font-family: $font-stack6;
 	}
-
+	.titleBanner .titleSpacer {
+		font-weight: 100;
+	}
 
 
 .nav {
@@ -62,11 +68,15 @@ iframe {
 	margin: 4%;
 	top: 20vh;
 }
-
 	.nav p {
 		font-size: 1.1rem;
+		font-family: $font-stack2;
+		font-weight: 200;
 	}
-
+	.nav p:hover {
+		font-weight: 600;
+		font-style: italic;
+	}
 
 
 .pageDiv {
@@ -78,39 +88,32 @@ iframe {
 
 
 
-//index
-		.indexTxt {
-			font-size: 4rem;
-			font-weight: bold;
-			font-family: Arial;
-		}
-
 //about
-		.about {
-			margin: auto;
-			margin-top: 3vh;
-		}
+	.about {
+		margin: auto;
+		margin-top: 3vh;
+	}
+	.aboutTxt {
+		font-size: 1.12rem;
+		font-family: $font-stack1;
+		letter-spacing: .05rem;
+	}
 
-		.aboutTxt {
-			font-size: 1rem;
-		}
 
 //connect
-		.connect {
-			margin: auto;
-			margin-top: 3vh;
-		}
-
-		.icon {
-			width: 6%;
-			min-width: 50px;
-			margin: 1%;
-			opacity: 0.9;
-		}
+	.connect {
+		margin: auto;
+		margin-top: 3vh;
+	}
+	.icon {
+		width: 6%;
+		min-width: 50px;
+		margin: 1%;
+		opacity: 0.9;
+	}
 
 
 //film projects
-
 		.filmAmericanParadise {
 			background-image: url('/projectImgs/americanparadise.jpg');
 		}
@@ -316,6 +319,8 @@ h5 .skillBreak {
 			display: inline;
 			font-size: 1.2rem;
 			word-spacing: 2rem;
+			margin-right: 2%;
+			margin-left: 2%
 		}
 		
 		.pageDiv {
@@ -358,7 +363,7 @@ h5 .skillBreak {
 			float: right;
 			width: 74%;
 			margin: auto;
-			margin-right: 4%;
+			margin-right: 2%;
 		}
 
 		.project {
