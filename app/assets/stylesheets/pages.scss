@@ -104,6 +104,8 @@ iframe {
 		font-size: 1.12rem;
 		font-family: $font-stack1;
 		letter-spacing: .05rem;
+		text-align: center;
+		margin-left: -20%;
 	}
 
 
@@ -383,6 +385,9 @@ iframe {
 		.connect, .about {
 			text-align: center;
 		}
+		.aboutTxt {
+			margin-left: 0%;
+		}
 }
 
 //mobile 
@@ -418,5 +423,8 @@ iframe {
 		.about {
 			margin-top: 6%;
 			text-align: left;
+		}
+		.aboutTxt {
+			margin-left: 0%;
 		}
 }
