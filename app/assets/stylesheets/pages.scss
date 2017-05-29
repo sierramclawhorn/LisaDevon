@@ -125,7 +125,16 @@ iframe {
 		min-width: 50px;
 		margin: 1%;
 		opacity: 0.9;
+		-webkit-filter: grayscale(0%);
+		filter: grayscale(0%);
+	  -webkit-transition: .3s ease-in-out;
+		transition: .3s ease-in-out;
 	}
+	.icon:hover {
+	  -webkit-filter: grayscale(100%);
+		filter: grayscale(100%);
+	}
+
 
 
 //film projects
@@ -343,7 +352,6 @@ iframe {
 			position: initial;
 			margin: 1%;
 		}
-
 		.nav p {
 			display: inline;
 			font-size: 1.2rem;
@@ -351,25 +359,21 @@ iframe {
 			margin-right: 2%;
 			margin-left: 2%
 		}
-		
 		.pageDiv {
 			float: none;
 			width: 100%;
 			margin: auto;
 			margin-left: -0.6%;
 		}
-
 		.project {
 			display: block;
 			margin: auto;
 			width: 100%;
 			height: 100%;
 		}
-
 		.postProject, .musicProject, .filmProject {
 			font-size: 250%;
 		}
-
 		.connect, .about {
 			text-align: center;
 		}
@@ -384,33 +388,27 @@ iframe {
 			position: fixed;;
 			top: 25vh;
 		}
-
 		.nav p {
 			font-size: 150%;
 		}
-
 		.pageDiv {
 			float: right;
 			width: 74%;
 			margin: auto;
 			margin-right: 2%;
 		}
-
 		.project {
 			display: block;
 			margin: auto;
 			width: 100%;
 			height: 100%;
 		}
-
 		.postProject, .musicProject, .filmProject {
 			font-size: 250%;
 		}
-
 		.connect {
 			text-align: center;
 		}
-
 		.about {
 			margin-top: 6%;
 			text-align: left;
