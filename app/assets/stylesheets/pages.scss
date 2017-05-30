@@ -422,6 +422,12 @@ iframe {
 		.nav p {
 			font-size: 1.1rem;
 		}
+ 		.nav {
+ 			margin: auto;
+ 		  	background-color: rgb(0,0,0); /* Fallback color */
+ 		  	background-color: rgba(0,0,0,0.03); /* Black w/ opacity */
+ 		  	padding: 2%;
+ 		}
 }
 
 
