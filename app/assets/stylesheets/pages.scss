@@ -417,6 +417,16 @@ iframe {
 		}
 }
 
+//mobile 
+@media handheld, screen and (max-width: 500px) {
+		.nav p {
+			font-size: 1.1rem;
+		}
+}
+
+
+
+
 // //mobile 
 // @media handheld, screen and (max-width: 500px) {
 // 		.nav {
