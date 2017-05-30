@@ -2,6 +2,11 @@
 
 	<!-- visible project blocks -->
 		<div id='portfolio'> 
+			<div class='project musicDusk'>
+				<div class='musicProject'>
+					<span data-modal='music4Modal' class='projBtn'>nemo</span>
+				</div>
+			</div>
 			<div class='project musicMagicianBag'>
 				<div class='musicProject'>
 					<span data-modal='music1Modal' class='projBtn'>magician bag</span>
@@ -21,6 +26,13 @@
 	
 	
 	<!-- project modals -->
+		<div id='music4Modal' class='projModal'>
+		 	<div class='projModalContent'>
+		 		<span class='projClose'>&times;</span>
+		    	<%= render partial: 'music4', layout: false %>
+		  	</div>
+		</div>
+
 		<div id='music1Modal' class='projModal'>
 		 	<div class='projModalContent'>
 		 		<span class='projClose'>&times;</span>

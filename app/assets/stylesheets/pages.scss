@@ -171,32 +171,35 @@ iframe {
 		background-image: url('/projectImgs/guthack.jpg');
 	}
 //music projects
+	.musicDusk {
+		background-image: url('/projectImgs/dusk.jpg');
+	}
 	.musicMagicianBag {
-		background-image: url('/projectImgs/magicianbag.jpg')
+		background-image: url('/projectImgs/magicianbag.jpg');
 	}
 	.musicSelidim {
-		background-image: url('/projectImgs/selidim.jpg')
+		background-image: url('/projectImgs/selidim.jpg');
 	}
 	.musicAllegretto {
-		background-image: url('/projectImgs/allegretto.jpg')
+		background-image: url('/projectImgs/allegretto.jpg');
 	}
 //post projects
 	.postVero {
-		background-image: url('/projectImgs/vero.jpg')
+		background-image: url('/projectImgs/vero.jpg');
 	}
 	.postCisco {
-		background-image: url('/projectImgs/cisco.jpg')
+		background-image: url('/projectImgs/cisco.jpg');
 	}
 	.postQueensway {
-		background-image: url('/projectImgs/queensway.jpg')
+		background-image: url('/projectImgs/queensway.jpg');
 	}
 
 
 //post, film, music 
 	.project {
 		background-size: cover;
-   	background-repeat:   no-repeat;
-   	background-position: center center;
+   		background-repeat:   no-repeat;
+   		background-position: center center;
 		width: 45%;
 		height: 100%;
 		margin: .1%;
