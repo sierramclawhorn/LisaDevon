@@ -3,7 +3,7 @@ class PagesController < ApplicationController
 	def index
   end
 
-  def about
+  def home
   end
 
   def connect

@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
 
 	resources :pages
-  		get '/about' => 'pages#about'
+  		get '/home' => 'pages#home'
   		get '/connect' => 'pages#connect'
   		get '/post' => 'pages#post'	
   		get '/film' => 'pages#film'
@@ -10,6 +10,6 @@ Rails.application.routes.draw do
   		get 'pages/download_pdf'
 
 
-	root 'pages#about'
+	root 'pages#home'
 
 end
