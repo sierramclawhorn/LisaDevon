@@ -12,9 +12,24 @@
 				<span data-modal='design2Modal' class='projBtn'>cisco</span>
 			</div>		
 		</div>
+		<div class='project designSquare'>
+			<div class='designProject'>
+				<span data-modal='design3Modal' class='projBtn'>square</span>
+			</div>		
+		</div>
+		<div class='project designDodo'>
+			<div class='designProject'>
+				<span data-modal='design4Modal' class='projBtn'>dodo</span>
+			</div>		
+		</div>
+		<div class='project designAudi'>
+			<div class='designProject'>
+				<span data-modal='design5Modal' class='projBtn'>audi italia</span>
+			</div>		
+		</div>
 		<div class='project designQueensway'>
 			<div class='designProject'>
-				<span data-modal='design3Modal' class='projBtn'>the queensway</span>
+				<span data-modal='design6Modal' class='projBtn'>the queensway</span>
 			</div>
 		</div>
 
@@ -35,8 +50,29 @@
 	    	<%= render partial: 'design_cisco', layout: false %>
 	  	</div>
 	</div>
-	
+
 	<div id='design3Modal' class='projModal'>
+	 	<div class='projModalContent'>
+	 		<span class='projClose'>&times;</span>
+	    	<%= render partial: 'design_square', layout: false %>
+	  	</div>
+	</div>
+
+	<div id='design4Modal' class='projModal'>
+	 	<div class='projModalContent'>
+	 		<span class='projClose'>&times;</span>
+	    	<%= render partial: 'design_dodo', layout: false %>
+	  	</div>
+	</div>	
+
+	<div id='design5Modal' class='projModal'>
+	 	<div class='projModalContent'>
+	 		<span class='projClose'>&times;</span>
+	    	<%= render partial: 'design_audi', layout: false %>
+	  	</div>
+	</div>
+	
+	<div id='design6Modal' class='projModal'>
 	 	<div class='projModalContent'>
 	 		<span class='projClose'>&times;</span>
 	    	<%= render partial: 'design_queensway', layout: false %>
