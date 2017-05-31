@@ -6,13 +6,13 @@ class PagesController < ApplicationController
   def connect
   end
 
- 	def post
- 	end
-
- 	def music
- 	end 
-
- 	def resume
- 	end
+	def design
+	end	
+	
+	def music
+	end 
+	
+	def resume
+	end
 
 end

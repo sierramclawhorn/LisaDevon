@@ -1,0 +1,46 @@
+<div class='pageDiv'>
+
+<!-- visible project blocks -->
+	<div id='portfolio'> 
+		<div class='project designVero'>
+			<div class='designProject'>
+				<span data-modal='design1Modal' class='projBtn'>vero_xsm</span>
+			</div>
+		</div>
+		<div class='project designCisco'>
+			<div class='designProject'>
+				<span data-modal='design2Modal' class='projBtn'>cisco</span>
+			</div>		
+		</div>
+		<div class='project designQueensway'>
+			<div class='designProject'>
+				<span data-modal='design3Modal' class='projBtn'>the queensway</span>
+			</div>
+		</div>
+
+	</div>	
+
+
+<!-- project modals -->
+	<div id='design1Modal' class='projModal'>
+	 	<div class='projModalContent'>
+	 		<span class='projClose'>&times;</span>
+	    	<%= render partial: 'design_vero', layout: false %>
+	  	</div>
+	</div>
+	
+	<div id='design2Modal' class='projModal'>
+	 	<div class='projModalContent'>
+	 		<span class='projClose'>&times;</span>
+	    	<%= render partial: 'design_cisco', layout: false %>
+	  	</div>
+	</div>
+	
+	<div id='design3Modal' class='projModal'>
+	 	<div class='projModalContent'>
+	 		<span class='projClose'>&times;</span>
+	    	<%= render partial: 'design_queensway', layout: false %>
+	  	</div>
+	</div>
+
+</div>

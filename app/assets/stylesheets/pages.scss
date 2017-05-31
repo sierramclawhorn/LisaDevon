@@ -183,19 +183,19 @@ iframe {
 	.musicAllegretto {
 		background-image: url('/projectImgs/allegretto.jpg');
 	}
-//post projects
-	.postVero {
+//design projects
+	.designVero {
 		background-image: url('/projectImgs/vero.jpg');
 	}
-	.postCisco {
+	.designCisco {
 		background-image: url('/projectImgs/cisco.jpg');
 	}
-	.postQueensway {
+	.designQueensway {
 		background-image: url('/projectImgs/queensway.jpg');
 	}
 
 
-//post, film, music 
+//design, film, music 
 	.project {
 		background-size: cover;
    		background-repeat:   no-repeat;
@@ -212,20 +212,20 @@ iframe {
 	.project:hover {
 		opacity: 100;
 	}
-	.postProject, .musicProject, .filmProject {
+	.designProject, .musicProject, .filmProject {
 		position: relative;
 		margin-top: 20%;
 		font-size: 2.5vw;
 		color: black;
 	}
-	.postProject a, .musicProject a, .filmProject a, .projBtn{
+	.designProject a, .musicProject a, .filmProject a, .projBtn{
 		color: white;
 		text-decoration: none;
 		font-family: $font-stack2;
 		letter-spacing: 0.01rem;
 		opacity: 0.75;
 	}
-	.postProject a:hover, .musicProject a:hover, .filmProject a:hover, .projBtn:hover {
+	.designProject a:hover, .musicProject a:hover, .filmProject a:hover, .projBtn:hover {
 		opacity: 100;
 		text-shadow: 1px 1px black;
 	  cursor: pointer;
@@ -399,7 +399,7 @@ iframe {
 			width: 100%;
 			height: 100%;
 		}
-		.postProject, .musicProject, .filmProject {
+		.designProject, .musicProject, .filmProject {
 			font-size: 250%;
 		}
 		.connect, .about {
@@ -463,7 +463,7 @@ iframe {
 // 			width: 100%;
 // 			height: 100%;
 // 		}
-// 		.postProject, .musicProject, .filmProject {
+// 		.designProject, .musicProject, .filmProject {
 // 			font-size: 250%;
 // 		}
 // 		.connect {

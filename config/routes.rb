@@ -3,7 +3,7 @@ Rails.application.routes.draw do
 	resources :pages
   		get '/home' => 'pages#home'
   		get '/connect' => 'pages#connect'
-  		get '/post' => 'pages#post'	
+  		get '/design' => 'pages#design'	
   		get '/film' => 'pages#film'
   		get '/music' => 'pages#music'
   		get '/resume' => 'pages#resume'
