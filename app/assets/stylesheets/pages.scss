@@ -117,8 +117,9 @@ iframe {
 
 //connect
 	.connect {
-		margin: auto;
-		margin-top: 3vh;
+		// margin: auto;
+		text-align: center;
+		margin-top: 1vh;
 	}
 	.connect .emailInfo {
 		font-size: 1.2rem;
@@ -147,6 +148,11 @@ iframe {
 	.icon:hover {
 	  -webkit-filter: grayscale(100%);
 		filter: grayscale(100%);
+	}
+	.lisaDrawing {
+		width: 50%;
+		min-width: 300px;
+		text-align: center;
 	}
 
 
