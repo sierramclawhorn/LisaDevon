@@ -161,7 +161,15 @@ iframe {
 		min-width: 300px;
 		text-align: center;
 	}
-
+	.site-credit a {
+		color: #878787;
+		font-weight: 200;
+		letter-spacing: 0.3rem;
+		font-size: 0.8rem;
+	}
+	.site-credit a:hover {
+		font-style: italic;
+	}
 
 
 //film projects
