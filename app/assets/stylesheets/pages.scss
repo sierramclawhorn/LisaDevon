@@ -89,7 +89,6 @@ iframe {
 	}
 
 .pageDiv {
-	// text-align: center;
 	margin: auto;
 	width: 96%;
 	padding-top: 2%;
@@ -551,4 +550,7 @@ iframe {
 		.titleBannerImg {
 			width: 80%;
 		}
+		.footer {
+    		min-height: 50px;
+    	}
 }
