@@ -20,13 +20,15 @@
 
   <body>
 
-  	<div class='titleBanner'>
+  <div class='titleBanner'>
 		<div class='titleName'>
 			<%= image_tag('/images/testname.png', :class => 'titleBannerImg') %>
 		</div>
 	</div>
 
-  	<div class='nav'>
+          <div class='pagedivider1'></div>
+
+  <div class='nav'>
 		<p><%= link_to "home", home_path %></p> /
 		<p><%= link_to "film", film_path %></p> /
 		<p><%= link_to "design", design_path %></p> /
@@ -35,6 +37,16 @@
 		<p><%= link_to "connect", connect_path %></p>
 	</div>
 
+          <div class='pagedivider2'></div>
+
     <%= yield %>
+
+
+  <div class='footer'>
+    <div class='pagedivider1'></div>
+    
+    <div class='site-credit'><%= link_to 'site created by sierra', '//www.sierramclawhorn.com', target: "_blank", class: 'site-credit' %></div>
+  </div>
+
   </body>
 </html>

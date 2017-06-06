@@ -8,10 +8,17 @@ $font-stack6: 'Josefin Sans', sans-serif;
 $color-blue: #093aa3;
 $color-charcol: #191919;
 
+$bg-color1: #595EA9;
+$bg-color2: #C6C9FE;
+$bg-color3: #444CB1;
+
+
 
 //pages
 body {
-	margin: 2%;
+	margin: 0;
+	background-color: $bg-color3;
+	padding-bottom: 110px;
 }
 
 a {
@@ -36,7 +43,8 @@ iframe {
 
 .titleBanner {
 	text-align: center;
-	margin-bottom: 2%;
+	padding-bottom: 2%;
+	background-color: $bg-color1;
 }
 	.titleBanner .titleName {
 		// font-size: 3.5rem;
@@ -62,8 +70,7 @@ iframe {
 
  .nav {
  	margin: auto;
-   	background-color: rgb(0,0,0); /* Fallback color */
-   	background-color: rgba(0,0,0,0.03); /* Black w/ opacity */
+   	background-color: $bg-color2;
    	padding: 2%;
    	text-align: center;
    	font-size: 1.5rem;
@@ -85,6 +92,34 @@ iframe {
 	margin: auto;
 	width: 96%;
 	padding-top: 2%;
+}
+
+.footer {
+	position: fixed;
+    bottom: 0;
+    width: 100%;
+    min-height: 100px;
+    background-color: $bg-color1;
+}
+	.site-credit {
+		text-align: center;
+		padding-top: 4%;
+
+	}
+	.site-credit a {
+		color: $bg-color2;
+		font-weight: 200;
+		letter-spacing: 0.3rem;
+		font-size: 0.8rem;
+	}
+	.site-credit a:hover {
+		font-style: italic;
+	}
+
+.pagedivider1,
+.pagedivider2 {
+	height: 10px;
+	background-color: white;
 }
 
 
@@ -158,18 +193,12 @@ iframe {
 	}
 	.lisaDrawing {
 		width: 50%;
+		background-color: white;
 		min-width: 300px;
 		text-align: center;
+		box-shadow: 0px 30px 40px rgba(0,0,0,.1);
 	}
-	.site-credit a {
-		color: #878787;
-		font-weight: 200;
-		letter-spacing: 0.3rem;
-		font-size: 0.8rem;
-	}
-	.site-credit a:hover {
-		font-style: italic;
-	}
+
 
 
 //film projects
