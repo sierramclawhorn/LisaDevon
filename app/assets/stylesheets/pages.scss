@@ -122,7 +122,58 @@ iframe {
 	height: 8px;
 	background-color: white;
 }
-
+		.pagedivider1 {
+			position: relative;
+  			z-index: 1;
+  			&:before,
+  			&:after {
+  			  background: inherit;
+  			  content: '';
+  			  display: block;
+  			  height: 26%;
+  			  left: 0;
+  			  position: absolute;
+  			  right: 0;
+  			  z-index: -1;
+  			  -webkit-backface-visibility: hidden; // for Chrome Windows
+  			}
+			&:before {
+    		  top: 0;
+    		  transform: skewY(1.3deg);
+    		  transform-origin: 100% 0;
+			}
+  			&:after {
+  			  bottom: 0;
+  			  transform: skewY(-1.3deg);
+  			  transform-origin: 100%;
+  			}
+		}
+		.pagedivider2 {
+			position: relative;
+  			z-index: 1;
+  			&:before,
+  			&:after {
+  			  background: inherit;
+  			  content: '';
+  			  display: block;
+  			  height: 26%;
+  			  left: 0;
+  			  position: absolute;
+  			  right: 0;
+  			  z-index: -1;
+  			  -webkit-backface-visibility: hidden; // for Chrome Windows
+  			}
+			&:before {
+    		  top: 0;
+    		  transform: skewY(181.3deg);
+    		  transform-origin: -28% 0;
+			}
+  			&:after {
+  			  bottom: 0;
+  			  transform: skewY(-181.3deg);
+  			  transform-origin: -28%;
+  			}
+		}
 
 
 //about
