@@ -434,12 +434,16 @@ iframe {
 
 //browser size media queries
 @media only screen and (max-width: 700px) {
+		body {
+			overflow-x: hidden;
+		}
 		.nav {
-			float: none;
 			width: 100%;
+			margin-left: -2%;
 			text-align: center;
 			position: initial;
-			padding: 1%;
+			padding-top: 2%;
+			padding-bottom: 2%;
 		}
 		.nav p {
 			display: inline;
@@ -449,10 +453,8 @@ iframe {
 			padding-left: 2%
 		}
 		.pageDiv {
-			float: none;
 			width: 100%;
 			margin: auto;
-			margin-left: -0.6%;
 		}
 		.resume {
 			margin: auto;
@@ -471,12 +473,6 @@ iframe {
 		.connect, .about {
 			text-align: center;
 		}
-		.about {
-			margin-top: -5%;
-		}
-		.aboutTxt {
-			margin-left: 0%;
-		}
 		.resumeDownload {
 			text-align: center;
 			margin: auto;
@@ -488,5 +484,8 @@ iframe {
 @media handheld, screen and (max-width: 500px) {
 		.nav p {
 			font-size: 1rem;
+		}
+		.titleBannerImg {
+			width: 80%;
 		}
 }
