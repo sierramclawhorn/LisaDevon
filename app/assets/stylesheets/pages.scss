@@ -533,13 +533,15 @@ iframe {
 
 //mobile 
 @media handheld, screen and (max-width: 500px) {
+		body {
+			overflow-x: hidden;
+		}
 		.pageDiv {
 			width: 90%;
 			margin: auto;
 			padding-top: 5%;
 			padding-bottom: 3%;
 		}
-
 		.about {
 			margin-top: -8%;
 		}
