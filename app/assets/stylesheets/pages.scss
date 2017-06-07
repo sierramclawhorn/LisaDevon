@@ -11,13 +11,23 @@ $color-charcol: #3c28d3;
 $bg-color1: #595EA9;
 $bg-color2: #C6C9FE;
 $bg-color3: #444CB1;
+$bg-color4: #7CEA9C;
+$bg-color5: #291A60;
+$bg-color6: #5762D5;
+$bg-color7: #55D6BE;
+$bg-color8: #093824;
+$bg-color9: #06109e;
+$bg-color10: #939F5C;
+$bg-color11: #ABF4C5;
+$bg-color12: #379e5b;
+$bg-color13: #136b30;
 
 
 //pages
 body {
 	color: white;
 	margin: 0;
-	background-color: $bg-color3;
+	background-color: $bg-color12;
 	padding-bottom: 95px;
 }
 
@@ -30,7 +40,7 @@ a {
 		color: $color-charcol;
 	}
 	a:hover {
-		color: $color-purple;
+		color: $bg-color8;
 	}
 
 
@@ -44,7 +54,7 @@ iframe {
 .titleBanner {
 	text-align: center;
 	padding-bottom: 2%;
-	background-color: $bg-color1;
+	background-color: $bg-color13;
 }
 	.titleBanner .titleName {
 		// font-size: 3.5rem;
@@ -71,7 +81,7 @@ iframe {
  .nav {
  	color: black;
  	margin: auto;
-   	background-color: $bg-color2;
+   	background-color: $bg-color11;
    	padding: 2%;
    	text-align: center;
    	font-size: 1.5rem;
@@ -99,7 +109,7 @@ iframe {
     bottom: 0;
     width: 100%;
     min-height: 80px;
-    background-color: $bg-color1;
+    background-color: $bg-color8;
 }
 	.site-credit {
 		text-align: center;
@@ -107,7 +117,7 @@ iframe {
 
 	}
 	.site-credit a {
-		color: $bg-color2;
+		color: $bg-color10;
 		font-weight: 200;
 		letter-spacing: 0.3rem;
 		font-size: 0.7rem;
@@ -220,7 +230,7 @@ iframe {
 		font-weight: 200;
 	}
 	.connect .email {
-		color: $color-purple;
+		color: $bg-color11;
 		font-weight: 500;
 		letter-spacing: .2rem;
 		padding-left: 2%;
@@ -469,7 +479,7 @@ iframe {
 		font-family: $font-stack2;
 	}
 	.resumeDownloadLink {
-		color: $color-purple;
+		color: $bg-color11;
 		letter-spacing: 0.1rem;
 		font-weight: 200;
 	}
