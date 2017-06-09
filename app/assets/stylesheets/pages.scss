@@ -36,14 +36,14 @@ body {
 
 a {
 	text-decoration: none;
-	color: #ff4e3a;
+	color: $bg-color8;
 }
 	a:visited {
 		text-decoration: none;
-		color: #ff4e3a;
+		color: $bg-color8;
 	}
 	a:hover {
-		color: $bg-color8;
+		color:  #ff4e3a;
 	}
 
 
@@ -111,12 +111,12 @@ iframe {
 	position: fixed;
     bottom: 0;
     width: 100%;
-    min-height: 80px;
+    min-height: 25px;
     background-color: #090d84;
 }
 	.site-credit {
 		text-align: center;
-		padding-top: 4%;
+		padding-top: 2%;
 
 	}
 	.site-credit a {
@@ -207,10 +207,10 @@ iframe {
 	.tooltip {
 	  display: none;
 	  position: absolute;
-	  width: 75px;
-	  height: 75px;
+	  width: 90px;
+	  height: 90px;
 	  border-radius: 15px 50px;
-	  background-image: url('/images/sierra-img.jpg');
+	  background-image: url('/images/lisa-img.jpg');
 	  background-size: cover;
 	  background-repeat:   no-repeat;
 	  background-position: center center;
@@ -218,6 +218,12 @@ iframe {
 	    .masterTooltip {
 	      text-decoration: none;
 	      color: inherit;
+	    }
+	    #tooltip-lisa {
+	    	color: white;
+	    		&:hover {
+	    			color: red;
+	    		}
 	    }
 	
 
